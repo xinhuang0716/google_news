@@ -1,5 +1,5 @@
 {
   "url": "https://news.google.com/news/rss/search/section/q/**query_chunk**/?hl=zh-tw&gl=TW&ned=zh-tw_tw",
   "//comment": "search the specified topic via changing the query_chunk value",
-  "query_chunk": "line pay"
+  "query_chunk": "SRAM"
 }
