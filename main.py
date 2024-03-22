@@ -26,9 +26,8 @@ def main(config_path: str = "./data/config/config.json"):
             for i in range(len(item))
         ]
     )
+    df.to_excel(f"./data/result/result_{query_chunk}.xlsx", index = False)
     print("completed")
-    return df.to_excel(f"./data/result/result_{query_chunk}.xlsx", index=False)
-
 
 if __name__ == "__main__":
     main()
